@@ -7,12 +7,12 @@ Machine learning roadmap
 Goal of machine learning is to produce an algorithm that can learn patterns inherent in a dataset to perform specified task.
 Put differently, the model learns how to take X(i.e. features or independent variables) in order to predict y(the target or dependent variable).
 #### Numeric variables ->
-They have values that describe a measurable quantity as a number. It is of 2 types;<br />
-**1. Continuous variable-** Observations can take any value between a set of real numbers. Eg: height, time, age.<br />
+They have values that describe a measurable quantity as a number. It is of 2 types;<br/>
+**1. Continuous variable-** Observations can take any value between a set of real numbers. Eg: height, time, age.<br/>
 **2. Discrete variable-** Observations cannot take the value of a fraction between one value and the next closest value. Eg; number of members in a family, number of cars, etc.
 #### Categorical variables ->
-They have values that describe a quality or characteristic of a data unit. It is of 2 types;<br />
-**1. Nominal variable -** It has 2 or more categories, but there is no intrinsic ordering to the categories.<br />
+They have values that describe a quality or characteristic of a data unit. It is of 2 types;<br/>
+**1. Nominal variable -** It has 2 or more categories, but there is no intrinsic ordering to the categories.<br/>
 **2. Ordinal variable -** It is a categorical variable that has clear ordering of the categories.
 
 ### Cost functions and gradient descent:
@@ -27,8 +27,8 @@ It is an efficient optimization algorithm that attempts to find local or global 
 ![alt text](https://dmol.pub/_images/loss-lr.gif)
 
 ### Overfitting and underfitting:
-**Overfitting:** too much reliance on training data<br />
-**Underfitting:** a failure to learn relationship in the training data<br/>
-**High Variance:** model changes significantly based on training data<br />
-**High Bias:** assumptions about model lead to ignoring training data<br />
+**<u>Overfitting:</u>** too much reliance on training data<br/>
+**<u>Underfitting:</u>** a failure to learn relationship in the training data<br/>
+**<u>High Variance:</u>** model changes significantly based on training data<br/>
+**<u>High Bias:</u>** assumptions about model lead to ignoring training data<br/>
 Over and underfitting cause poor generalization on the test set. A validation set for model tuninig can improve under and overfitting.
