@@ -27,8 +27,8 @@ It is an efficient optimization algorithm that attempts to find local or global 
 ![alt text](https://dmol.pub/_images/loss-lr.gif)
 
 ### Overfitting and underfitting:
-**<u>Overfitting:</u>** too much reliance on training data<br/>
-**<u>Underfitting:</u>** a failure to learn relationship in the training data<br/>
-**<u>High Variance:</u>** model changes significantly based on training data<br/>
-**<u>High Bias:</u>** assumptions about model lead to ignoring training data<br/>
+**Overfitting:** too much reliance on training data<br/>
+**Underfitting:** a failure to learn relationship in the training data<br/>
+**High Variance:** model changes significantly based on training data<br/>
+**High Bias:** assumptions about model lead to ignoring training data<br/>
 Over and underfitting cause poor generalization on the test set. A validation set for model tuninig can improve under and overfitting.
