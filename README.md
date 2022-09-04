@@ -32,3 +32,8 @@ It is an efficient optimization algorithm that attempts to find local or global 
 **High Variance:** model changes significantly based on training data<br/>
 **High Bias:** assumptions about model lead to ignoring training data<br/>
 Over and underfitting cause poor generalization on the test set. A validation set for model tuninig can improve under and overfitting.
+
+### Training, validation and test data:
+**Training data set:** sample of data used to fit model<br/>
+**Validation data set:** sample of data used to fine tune model hyperparameters<br/>
+**Test data set:** sample of data used to provide unbiased evaluation of final model fit
