@@ -39,4 +39,4 @@ Over and underfitting cause poor generalization on the test set. A validation se
 **Test data set -** sample of data used to provide unbiased evaluation of final model fit
 
 ### Type I and Type II error:
-![alt text](https://www.abtasty.com/wp-content/uploads/type-1-2-errors.png) ![alt text](https://www.statisticssolutions.com/wp-content/uploads/2017/12/rachnovblog.jpg)
+![alt text](https://www.abtasty.com/wp-content/uploads/type-1-2-errors.png)
