@@ -37,3 +37,6 @@ Over and underfitting cause poor generalization on the test set. A validation se
 **Training data set -** sample of data used to fit model<br/>
 **Validation data set -** sample of data used to fine tune model hyperparameters<br/>
 **Test data set -** sample of data used to provide unbiased evaluation of final model fit
+
+### Type I and Type II error:
+![alt text](https://www.abtasty.com/wp-content/uploads/type-1-2-errors.png)
