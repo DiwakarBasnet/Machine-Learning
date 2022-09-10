@@ -47,11 +47,13 @@ Precision and recall are two extremely important model evaluation metrics. While
 F-1 score = 2 * [(Precision * Recall) / (Precision + Recall)]
 
 ### Bias and Variance:
-#### Bias- It is a phenomenon that occurs when an algorithm produces results that are prejudice in structural way due to erroneous assumptions in the machine learning process. High bias can cause an algorithm to miss relevant relation between features and target outputs (underfitting). 
+#### Bias- 
+It is a phenomenon that occurs when an algorithm produces results that are prejudice in structural way due to erroneous assumptions in the machine learning process. High bias can cause an algorithm to miss relevant relation between features and target outputs (underfitting). 
 If we have high bias problem;
 1. Try getting additional features, we are generalizing the datasets.
 2. Try adding polynomial features, make the model more complicated.
-#### Variance- It is the algorirthm's tendency to learn random things irrespective of the error/noise in the data too closely (overfitting).
+#### Variance- 
+It is the algorirthm's tendency to learn random things irrespective of the error/noise in the data too closely (overfitting).
 If we have high variance problem;
 1. We can get more training examples because a larger the dataset is more probable to get a higher predictions.
 2. Try smaller sets of features (because we are overfitting).
