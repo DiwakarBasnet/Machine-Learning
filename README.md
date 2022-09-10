@@ -45,3 +45,13 @@ Over and underfitting cause poor generalization on the test set. A validation se
 Precision and recall are two extremely important model evaluation metrics. While precision refers to the percentage of our results which are relevant, recall refers to the percentage of total relevant results correctly classified by our algorithm. If we have to recall everything, we will have to keep generating results which are not accurate, hence lowering the precision. Unfortunately, it is not possible to maximize both these metrics at the same time, as one comes at the cost of another. For simplicity, there is another metric available called F-1 score. For problems where both precision and recall are important, one can select a model which maximizes this F-1 score. For other problems, a trade-off is needed, and a decision has to be made whether to maximize precision, or recall.
 
 F-1 score = 2 * [(Precision * Recall) / (Precision + Recall)]
+
+### Bias and Variance:
+#### Bias- It is a phenomenon that occurs when an algorithm produces results that are prejudice in structural way due to erroneous assumptions in the machine learning process. High bias can cause an algorithm to miss relevant relation between features and target outputs (underfitting). 
+If we have high bias problem;
+1. Try getting additional features, we are generalizing the datasets.
+2. Try adding polynomial features, make the model more complicated.
+#### Variance- It is the algorirthm's tendency to learn random things irrespective of the error/noise in the data too closely (overfitting).
+If we have high variance problem;
+1. We can get more training examples because a larger the dataset is more probable to get a higher predictions.
+2. Try smaller sets of features (because we are overfitting).
