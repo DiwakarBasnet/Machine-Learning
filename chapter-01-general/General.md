@@ -55,4 +55,5 @@ If we have high variance problem;
 
 # Lift:
 When facing a binary classification problem the machine learning algorithm that we generally use returns a probability which is then converted to a prediction. The lift curve uses this returned probability to evaluate how our model us performing.
+
 ![alt text](https://miro.medium.com/max/926/1*ViEu6FT2k3cODY2KHpd67g.png)
