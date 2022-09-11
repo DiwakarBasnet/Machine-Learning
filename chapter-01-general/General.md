@@ -52,3 +52,7 @@ It is the algorirthm's tendency to learn random things irrespective of the error
 If we have high variance problem;
 1. We can get more training examples because a larger the dataset is more probable to get a higher predictions.
 2. Try smaller sets of features (because we are overfitting).
+
+# Lift:
+When facing a binary classification problem the machine learning algorithm that we generally use returns a probability which is then converted to a prediction. The lift curve uses this returned probability to evaluate how our model us performing.
+![alt text](https://miro.medium.com/max/926/1*ViEu6FT2k3cODY2KHpd67g.png)
