@@ -1,5 +1,5 @@
 # Simple Linear Regression:
-SALES.txt
+SALES.csv
 
 url- http://www.econometrics.com/intro/sales.htm
 
