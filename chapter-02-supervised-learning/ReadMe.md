@@ -12,3 +12,6 @@ Some of the most common regresssion techniques in machine learning can be groupe
 
 * ### Simple linear regression
 It is useful for finding relationship between two continuous variables; one is independent variable and other is dependent variable. It is a technique which plots a straight line within data points to minimise error between the line and data points.
+
+* ### Multiple linear regression
+It is a technique that uses more than one independent variables to predict the outcome of a dependent variable.
