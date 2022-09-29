@@ -15,3 +15,7 @@ It is useful for finding relationship between two continuous variables; one is i
 
 * ### Multiple linear regression
 It is a technique that uses more than one independent variables to predict the outcome of a dependent variable.
+
+* ### Polynomial regression
+In the previous examples of Linear Regression, when the data is plotted, there was a linear relationship between dependent and independent variables. Thus is was more suitable to build a linear model to get accurate predictions. What if the data points had non-linearity making the linear model give an error in predictions due to non-linearity? 
+In this case, we have to build a polynomial relationship which will accurately fit the data points in the given plot.
