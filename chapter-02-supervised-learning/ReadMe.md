@@ -21,6 +21,6 @@ In this case, we have to build a polynomial relationship which will accurately f
 
 ## 2. Classification: 
 
-It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled. In classification , a program learns from given dataset or observations and then classifies new observation into a number of classes or groups. The best example of ML classification algorithm is Email Spam Detector. The algorithm which implements the classification on the dataset is known as a classifier. There are 2 types of classifer;
-*<b>Binary Classifier: </b>Classification problem has only 2 possible outcomes
-*<b>Multi-class Classifier: </b>Classification problem has more than 2 outcomes
+It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled. In classification, a program learns from given dataset or observations and then classifies new observation into a number of classes or groups. The best example of ML classification algorithm is Email Spam Detector. The algorithm which implements the classification on the dataset is known as a classifier. There are 2 types of classifer;
+- **Binary Classifier:** Classification problem has only 2 possible outcomes
+- **Multi-class Classifier:** Classification problem has more than 2 outcomes
