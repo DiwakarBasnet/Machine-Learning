@@ -3,7 +3,6 @@
 Supervised learning uses a training set to teach models to yield the desired output. This training dataset includes inputs and correct outputs, which allow the model to learn over time. 
 The algorithm measures its accuracy through the loss function, adjusting until the error has been sufficiently minimized.
 It can be separated into two types of problems;<br>
-2. Classification: It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled.
 
 ## 1. Regression:
 
@@ -19,3 +18,9 @@ It is a technique that uses more than one independent variables to predict the o
 * ### Polynomial regression
 In the previous examples of Linear Regression, when the data is plotted, there was a linear relationship between dependent and independent variables. Thus is was more suitable to build a linear model to get accurate predictions. What if the data points had non-linearity making the linear model give an error in predictions due to non-linearity? 
 In this case, we have to build a polynomial relationship which will accurately fit the data points in the given plot.
+
+## 2. Classification: 
+
+It recognizes specific entities within the dataset and attempts to draw some conclusion on how those entities should be labeled. In classification , a program learns from given dataset or observations and then classifies new observation into a number of classes or groups. The best example of ML classification algorithm is Email Spam Detector. The algorithm which implements the classification on the dataset is known as a classifier. There are 2 types of classifer;
+*<b>Binary Classifier: </b>Classification problem has only 2 possible outcomes
+*<b>Multi-class Classifier: </b>Classification problem has more than 2 outcomes
