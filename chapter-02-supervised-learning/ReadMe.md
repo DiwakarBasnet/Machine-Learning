@@ -26,5 +26,5 @@ It recognizes specific entities within the dataset and attempts to draw some con
 - **Multi-class Classifier:** Classification problem has more than 2 outcomes
 
 There are 2 types of learners in classification;
-- **Lazy learners:** Lazy learner stores the training dataset and waits until it receives the test dataset. It takes less time in training but more time for prediction.
-- **Eager learners:** Eager learner develop a classification model based on a training dataset before receiving test dataset. It takes more time in learning and less time in prediction.
+- **Lazy learners:** Lazy learner stores the training dataset and waits until it receives the test dataset. It takes less time in training but more time for prediction. Example: K-NN algorithm, Case-based reasoning.
+- **Eager learners:** Eager learner develop a classification model based on a training dataset before receiving test dataset. It takes more time in learning and less time in prediction. Example: Decision Tree, Naive Bayes, ANN.
