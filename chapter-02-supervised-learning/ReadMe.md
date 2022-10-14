@@ -28,3 +28,9 @@ It recognizes specific entities within the dataset and attempts to draw some con
 There are 2 types of learners in classification;
 - **Lazy learners:** Lazy learner stores the training dataset and waits until it receives the test dataset. It takes less time in training but more time for prediction. Example: K-NN algorithm, Case-based reasoning.
 - **Eager learners:** Eager learner develop a classification model based on a training dataset before receiving test dataset. It takes more time in learning and less time in prediction. Example: Decision Tree, Naive Bayes, ANN.
+
+* ### Decision Tree
+A decision tree is a flowchart-like tree structure where internal node represents features(attributes), the branch represents a decision rule and each leaf node represents the outcome.
+
+* ### Logistic Regression
+It is a process of modeling the probability of a discrete outcome given an input variable. Despite its name, it is a classification model rather than regression model. The best way to think about logistic regression is that it is a linear regression but for classification problems. 
