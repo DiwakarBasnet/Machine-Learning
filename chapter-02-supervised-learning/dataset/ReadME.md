@@ -11,3 +11,6 @@ The variables in this data set are Sales and Advertising.
 
 The variables in this data set are: R&D Spend, Administration, Marketing Spend, State and Profit. Of which Profit is the dependent variable.
 We have to build a ML model that predicts the profit for another new company with all these data.
+
+# Naive Bayes Classification:
+## adult.csv
