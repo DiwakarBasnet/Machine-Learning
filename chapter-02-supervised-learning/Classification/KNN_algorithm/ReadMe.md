@@ -1,9 +1,9 @@
-#K-Nearest Neighbours Algorithm
+# K-Nearest Neighbours Algorithm
 The k-nearest neighbours (KNN) algorithm is a simple, easy to implement supervised machine learning algorithm 
 that can be used to solve both classification and regression problems.
 The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-##The KNN algorithm:
+## The KNN algorithm:
 1. Load the data
 2. Initialize K to your chosen number of neighbours
 3. For each example in data
@@ -15,7 +15,7 @@ The KNN algorithm assumes that similar things exist in close proximity. In other
 7. If regression, return mean of the K labels
 8. If classification, return mode of the K labels
 
-##Choosing the right value of K:
+## Choosing the right value of K:
 To select the K that's right for your data, we run the KNN algorithm several times with different values of K and
 choose the K that reduces the number of errors we encounter while maintaining the algorithm's ability to accurately
 make predictions when it's given data it hasn't seen before.
