@@ -25,4 +25,5 @@ Some things to keep in mind-
    we begin to witness an increasing number of errors.
 3. In cases where we are taking a majority vote like in a classification problem, we usually make K an odd number
    to have a tiebreaker.
-In case of large data value of K can be square root of number of data points.
+
+  In case of large data value of K can be square root of number of data points.
