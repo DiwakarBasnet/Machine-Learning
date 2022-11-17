@@ -20,8 +20,8 @@ The objective of ML model therefore, is to find parameters, weights or a structu
 ## Gradient descent ->
 It is an efficient optimization algorithm that attempts to find local or global minima of a function.
 ![alt text](https://dmol.pub/_images/loss-lr.gif)
-<br/>**1. Batch gradient descent:**</u> Uses all training samples for one froward pass and then adjusts weights. It is good for small training sets.
-<br/>**2. Stochastic gradient descent:**</u> Use one randomly picked sample for a forward pass and adjusts then weights. It is good when training set is very big and we don't want too much computation.
+<br/>**1. Batch gradient descent:**<u/> Uses all training samples for one froward pass and then adjusts weights. It is good for small training sets.
+<br/>**2. Stochastic gradient descent:**<u/> Use one randomly picked sample for a forward pass and adjusts then weights. It is good when training set is very big and we don't want too much computation.
 
 # Overfitting and underfitting:
 **Overfitting -** too much reliance on training data<br/>
