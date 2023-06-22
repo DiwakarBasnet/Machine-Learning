@@ -10,11 +10,17 @@ Using clustering algorithm means we're going to give the algorithm a lot of inpu
 Clustering is used for things like feature engineering or pattern discovery. When we're starting with data we know nothing about, clustering might be a good place to get some insight.
 Types of clustering algorithm;<br>
 
-### (I) Hierarchical clustering:
+### (i) Hierarchical clustering:
 
 This clustering technique is further divided into two types:<br>
-* Agglomerative Hierarchical clustering - In this technique, initially each data point is considered as an individual cluster. At each iteration, the similar clusters merge with other clusters until one cluster or K clusters are formed.<br>
-* Divisive Hierarchical clustering - In simple words, we can say that the Divisive Hierarchical clustering is exactly the opposite of the Agglomerative Hierarchical clustering. In Divisive Hierarchical clustering, we consider all the data points as a single cluster and in each iteration, we separate the data points from the cluster which are not similar. Each data point which is separated is considered as an individual cluster. In the end, we’ll be left with n clusters.<br>
+* **Agglomerative Hierarchical clustering** - In this technique, initially each data point is considered as an individual cluster. At each iteration, the similar clusters merge with other clusters until one cluster or K clusters are formed.<br>
+* **Divisive Hierarchical clustering** - In simple words, we can say that the Divisive Hierarchical clustering is exactly the opposite of the Agglomerative Hierarchical clustering. In Divisive Hierarchical clustering, we consider all the data points as a single cluster and in each iteration, we separate the data points from the cluster which are not similar. Each data point which is separated is considered as an individual cluster. In the end, we’ll be left with n clusters.<br>
 
-### (II) K-Means clustering:
+### (ii) K-Means clustering:
+
+The K-means algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.
+The K-means algorithm in data mining starts with a first group of randomly selected centroids, which are used as the beginning points for every cluster, and then performs iterative calculations to optimize the positions of the centroids.<br>
+It halts creating and optimizing clusters when either:
+* The centroids have stabilized - there is no change in their values because the clustering has been successful.
+* The defined number of iterations has been achieved.
 
