@@ -29,6 +29,6 @@ It halts creating and optimizing clusters when either:
 It stands for Density-Based Spatial Clustering of Applications with Noise. K-Means and Hierarchical Clustering both fail in creating clusters based on varying densities. That's why we need DBSCAN clustering. DBSCAN is a density-based clustering algorithm that works on the assumption that clusters are dense regions in space separated by regions of lower density.<br><br>
 DBSCAN requires only two parameters: *epsilon* and *minPoints*. ***Epsilon***  is the radius of the circle to be created around each data point to check the density and ***minPoints*** is the min number of data points required inside that circle for that data point to be classified as a Core point. A data point is a **Core** point if the circle around it contains at least *'minPoints'* number of points. If the number of points is less than *minPoints*, then it is classified as **Border** point and if there is no other data points around any data point within *epsilon* radius, then it is treated as **Noise**.
 
-### (iv) [Gaussian Mixture Modeles] (https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/):
+### (iv) [Gaussian Mixture Models](https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/):
 
 Gaussian Mixture Models are probabilistic models and use the soft clustering approach for distributing the points in different clusters.
