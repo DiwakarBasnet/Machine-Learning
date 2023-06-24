@@ -43,3 +43,11 @@ It tests for the reliance of one data element on another data element and design
 ### (i) Apriori algorithm:
 
 This algorithm detects the most frequent itemsets or elements in a transaction database and establishes association rules between the items. This algorithm needs frequent datasets to produce associate rules. It needs a breadth-first seach and hash tree to compute the itemset efficiently. It is generally used for market basket analysis and support to learn the products that can be purchased together. It can be used in the healthcare area to discover drug reactions for patients.
+
+### (ii) [Eclat algorithm](https://towardsdatascience.com/the-eclat-algorithm-8ae3276d2d17):
+
+The Eclat algorithm represents Equivalence Class Transformation. This algorithm needs a depth-first search method to discover frequent itemsets in a transaction database. It implements quicker execution than Apriori algorithm. It does not give us the *confidence* and *lift* metrics that are essential for interpretation in the Apriori algorithm.
+
+### (iii) FP Growth:
+
+There are two faster alternatives to the Apriori algorithm that are state-of-the-art: one of them is ECLAT and the other one is FP Growth.
