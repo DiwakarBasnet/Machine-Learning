@@ -29,6 +29,17 @@ It halts creating and optimizing clusters when either:
 It stands for Density-Based Spatial Clustering of Applications with Noise. K-Means and Hierarchical Clustering both fail in creating clusters based on varying densities. That's why we need DBSCAN clustering. DBSCAN is a density-based clustering algorithm that works on the assumption that clusters are dense regions in space separated by regions of lower density.<br><br>
 DBSCAN requires only two parameters: *epsilon* and *minPoints*. ***Epsilon***  is the radius of the circle to be created around each data point to check the density and ***minPoints*** is the min number of data points required inside that circle for that data point to be classified as a Core point. A data point is a **Core** point if the circle around it contains at least *'minPoints'* number of points. If the number of points is less than *minPoints*, then it is classified as **Border** point and if there is no other data points around any data point within *epsilon* radius, then it is treated as **Noise**.
 
-### (iv) [Gaussian Mixture Models](https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/):
+### (iv) [Gaussian Mixture Models]([https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)):
 
-Gaussian Mixture Models are probabilistic models and use the soft clustering approach for distributing the points in different clusters.
+Gaussian Mixture Models are probabilistic models and use the soft clustering approach for distributing the points in different clusters. A Gaussian Mixture is a function that is comprised of several Gaussians, each identified by k ∈ {1,…, K}, where K is the number of clusters of our dataset. Each Gaussian k in the mixture is comprised of the following parameters:
+* A mean μ that defines its centre.
+* A covariance Σ that defines its width. This would be equivalent to the dimensions of an ellipsoid in a multivariate scenario.
+* A mixing probability π that defines how big or small the Gaussian function will be.
+
+## 2. Association rule learning:
+
+It tests for the reliance of one data element on another data element and design appropriately so that it can be more cost-effective. It is employed in *Market Basket analysis*, *Web usage mining*, *continuous production*, etc. There are following types of Association rule learning;
+
+### (i) Apriori algorithm:
+
+This algorithm detects the most frequent itemsets or elements in a transaction database and establishes association rules between the items.
