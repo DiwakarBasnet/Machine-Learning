@@ -48,6 +48,6 @@ This algorithm detects the most frequent itemsets or elements in a transaction d
 
 The Eclat algorithm represents Equivalence Class Transformation. This algorithm needs a depth-first search method to discover frequent itemsets in a transaction database. It implements quicker execution than Apriori algorithm. It does not give us the *confidence* and *lift* metrics that are essential for interpretation in the Apriori algorithm.
 
-### (iii) FP Growth:
+### (iii) [FP Growth](https://towardsdatascience.com/the-fp-growth-algorithm-1ffa20e839b8):
 
-There are two faster alternatives to the Apriori algorithm that are state-of-the-art: one of them is ECLAT and the other one is FP Growth.
+There are two faster alternatives to the Apriori algorithm that are state-of-the-art algorithms for frequent itemset mining and basket analysis: one of them is ECLAT and the other one is FP Growth. The F-P stands for Frequent Pattern. It is the enhanced version of Apriori algorithm. It describes the database in the form of a tree structure that is referred to as a frequent pattern or tree.
